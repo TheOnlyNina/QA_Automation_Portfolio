@@ -60,8 +60,6 @@ mvn test
 
 ### 6. JMeter
 - Conducted performance/load testing of the API.
-- Used Thread Groups, Timers, Logic Controllers, and CSV Data Set Config.
-- Applied correlation using Regular Expression Extractor.
 - ✅ Test result saved as a PDF.
 - ✅ Located inside the jmeter folder.
 
