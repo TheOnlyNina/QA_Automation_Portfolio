@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FakeRESTPI test suite">
+    <test name="API tests project">
+        <classes>
+            <class name ="API.GetUsersGetAuthorId"/>
+                    <class name ="API.PostUser"/>
+                        <class name ="API.Put_UpdateUserDetail"/>
+                            <class name ="API.DeleteUser"/>
+        </classes>
+    </test>
+</suite>
