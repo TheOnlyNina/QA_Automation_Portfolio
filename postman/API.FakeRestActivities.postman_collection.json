@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "17441776-e41f-4eec-858c-1e2e6739fb06",
+		"name": "Activities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47279944"
+	},
+	"item": [
+		{
+			"name": "Get activities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post activities",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"title\": \"string\",\r\n  \"dueDate\": \"2025-08-07T15:55:45.736Z\",\r\n  \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get activity id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities/5",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Activities",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put activity id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"title\": \"string\",\r\n  \"dueDate\": \"2025-08-07T15:58:18.722Z\",\r\n  \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities/5",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Activities",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete activity",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities/5",
+					"protocol": "https",
+					"host": [
+						"fakerestapi",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Activities",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
