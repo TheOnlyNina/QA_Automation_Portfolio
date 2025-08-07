@@ -44,3 +44,22 @@ All tests are written using Rest Assured. To run them:
 
 ```bash
 mvn test
+```
+
+---
+
+## 📦 Additional Tools
+
+### 5. Postman
+- Performed manual API testing using Postman.
+- Covered all CRUD operations (GET, POST, PUT, DELETE).
+- Exported the test collection as a .json file.
+- ✅ Located inside the postman folder.
+
+### 6. JMeter
+- Conducted performance/load testing of the API.
+- Used Thread Groups, Timers, Logic Controllers, and CSV Data Set Config.
+- Applied correlation using Regular Expression Extractor.
+- ✅ Test result saved as a PDF.
+- ✅ Located inside the jmeter folder.
+
