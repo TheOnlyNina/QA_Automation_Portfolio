@@ -12,6 +12,8 @@ This is a capstone automation project built with **Java**, **Rest Assured**, and
 - Maven
 - IntelliJ IDEA
 - Git & GitHub
+- Postman
+- Jmeter
 
 ---
 
