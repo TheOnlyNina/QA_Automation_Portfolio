@@ -1,4 +1,4 @@
-# API Automation Project using Rest Assured
+# API Automation Project 
 
 This is a capstone automation project built with **Java**, **Rest Assured**, and **IntelliJ IDEA**. It covers full CRUD operations on the [FakeRestAPI](https://fakerestapi.azurewebsites.net/) endpoints.
 
