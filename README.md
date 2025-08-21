@@ -63,3 +63,15 @@ mvn test
 - ✅ Test result saved as a PDF.
 - ✅ Located inside the jmeter folder.
 
+## 🗄️ SQL Mini Project
+
+This project includes an `EmployeeInfo` database schema and 10 SQL practice queries.
+
+### Files
+- `employeeinfo.sql` → Table structure + sample data
+- `queries.sql` → Solutions to 10 SQL questions
+
+### Run Online
+You can also try it instantly on DB Fiddle: [link-to-your-fiddle]
+
+
