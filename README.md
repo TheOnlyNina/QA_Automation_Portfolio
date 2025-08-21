@@ -72,6 +72,6 @@ This project includes an `EmployeeInfo` database schema and 10 SQL practice quer
 - `queries.sql` → Solutions to 10 SQL questions
 
 ### Run Online
-You can also try it instantly on DB Fiddle: [link-to-your-fiddle]
+You can also try it instantly on DB Fiddle: [here](https://www.db-fiddle.com/f/358zhrEaxCesLeU8acBQ33/0)
 
 
